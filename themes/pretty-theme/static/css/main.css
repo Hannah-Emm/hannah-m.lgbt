@@ -1,5 +1,24 @@
-body {
+* {
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: normal;
+}
+
+#header {
+  display: flex;
+  flex-flow: row;
+  gap: 25px;
+  width: 720px;
+  margin: 0 auto;
+}
+
+#content {
+  display: flex;
+  flex-flow: column;
+  width: 720px;
+  margin: 0 auto;
+}
+
+p {
+  width: 100%;
 }
